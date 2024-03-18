@@ -1,3 +1,10 @@
+Backend | Explictly used in user-defined program | Registered in dedicated source file | "Works"
+--- | --- | --- | ---
+Apple | No | Yes | No
+Banana | Yes | Yes | No
+Kiwi | No | No | No
+Orange | Yes | No | Yes
+
 # Shared library works as expected
 ```
 cmake -B build-shared -DBUILD_SHARED_LIBS=ON
